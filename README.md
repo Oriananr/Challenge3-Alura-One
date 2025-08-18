@@ -30,7 +30,7 @@ Validación Robusta: Para obtener una evaluación fiable y final, se utilizó la
 
 **Resultados y Conclusiones**
 
-El modelo final de Random Forest, optimizado con NearMiss y validado con cross_validate, superó con creces el rendimiento del modelo inicial. 
+El modelo final de Random Forest, optimizado con NearMiss y validado con cross_validate, superó con "creces" el rendimiento del modelo inicial. 
 
 El "recall" de 0.69 es un resultado sólido que demuestra que el modelo es una herramienta valiosa para identificar a los clientes en riesgo, con la capacidad de capturar a la mayoría de ellos.
 
