@@ -28,7 +28,7 @@ Para resolver este problema, se implementó NearMiss, una técnica de submuestre
 
 Validación Robusta: Para obtener una evaluación fiable y final, se utilizó la validación cruzada (cross_validate) en el modelo optimizado. Este método proporcionó un "recall" promedio de 0.69, demostrando que el modelo era consistentemente efectivo en diferentes subconjuntos de datos.
 
-**Resultados y Conclusiones**
+**3.Resultados y Conclusiones**
 
 El modelo final de Random Forest, optimizado con NearMiss y validado con cross_validate, superó con "creces" el rendimiento del modelo inicial. 
 
