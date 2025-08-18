@@ -22,7 +22,7 @@ Se utilizó una división simple de "train_test_split" para obtener un primer mo
 
 Hipótesis de Ponderación de Clases: Para abordar el desbalance, se probó la ponderación de clases ("class_weight"), esperando una mejora. Sin embargo, un "screening" de diferentes pesos de clase demostró que esta técnica no mejoró significativamente el rendimiento, lo que llevó a la conclusión de que la causa raíz del bajo "recall" era más profunda.
 
-El análisis demostró que el bajo recall no era un problema del modelo, sino un problema de los datos y su evaluación. La frontera de decisión borrosa entre los clientes que abandonan y los que no, hacía que el modelo no pudiera aprender a diferenciarlos adecuadamente con los datos desbalanceados.
+El análisis demostró que el bajo "recall" no era un problema del modelo, sino un problema de los datos y su evaluación. La frontera de decisión borrosa entre los clientes que abandonan y los que no, hacía que el modelo no pudiera aprender a diferenciarlos adecuadamente con los datos desbalanceados.
 
 Para resolver este problema, se implementó NearMiss, una técnica de submuestreo que equilibra los datos de entrenamiento al centrarse en los casos más difíciles y relevantes. Esta intervención estratégica permitió al modelo aprender la verdadera naturaleza de la clase minoritaria.
 
