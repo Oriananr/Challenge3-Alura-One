@@ -26,7 +26,7 @@ El análisis demostró que el bajo "recall" no era un problema del modelo, sino 
 
 Para resolver este problema, se implementó NearMiss, una técnica de submuestreo que equilibra los datos de entrenamiento al enfocarse en los casos más difíciles y relevantes. Esta intervención estratégica permitió al modelo aprender la verdadera naturaleza de la clase minoritaria.
 
-Validación Robusta: Para obtener una evaluación fiable y final, se utilizó la validación cruzada (cross_validate) en el modelo optimizado. Este método proporcionó un recall promedio de 0.69, demostrando que el modelo era consistentemente efectivo en diferentes subconjuntos de datos.
+Validación Robusta: Para obtener una evaluación fiable y final, se utilizó la validación cruzada (cross_validate) en el modelo optimizado. Este método proporcionó un "recall" promedio de 0.69, demostrando que el modelo era consistentemente efectivo en diferentes subconjuntos de datos.
 
 **Resultados y Conclusiones**
 
