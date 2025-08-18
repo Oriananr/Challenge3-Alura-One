@@ -24,7 +24,7 @@ Hipótesis de Ponderación de Clases: Para abordar el desbalance, se probó la p
 
 El análisis demostró que el bajo "recall" no era un problema del modelo, sino un problema de los datos y su evaluación. La frontera de decisión borrosa entre los clientes que abandonan y los que no, hacía que el modelo no pudiera aprender a diferenciarlos adecuadamente con los datos desbalanceados.
 
-Para resolver este problema, se implementó NearMiss, una técnica de submuestreo que equilibra los datos de entrenamiento al centrarse en los casos más difíciles y relevantes. Esta intervención estratégica permitió al modelo aprender la verdadera naturaleza de la clase minoritaria.
+Para resolver este problema, se implementó NearMiss, una técnica de submuestreo que equilibra los datos de entrenamiento al enfocarse en los casos más difíciles y relevantes. Esta intervención estratégica permitió al modelo aprender la verdadera naturaleza de la clase minoritaria.
 
 Validación Robusta: Para obtener una evaluación fiable y final, se utilizó la validación cruzada (cross_validate) en el modelo optimizado. Este método proporcionó un recall promedio de 0.69, demostrando que el modelo era consistentemente efectivo en diferentes subconjuntos de datos.
 
